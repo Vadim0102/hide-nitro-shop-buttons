@@ -2,14 +2,14 @@
  * @name hide nitro and shop buttons
  * @author relevest
  * @description Hide Nitro and Shop buttons in DMs menu.
- * @version 1.0
+ * @version 1.1
  * @source https://github.com/Vadim0102/hide-nitro-shop-buttons
  */
 
-li.channel_c91bad.container_d91ad9 a[data-list-item-id*="nitro"] {
+a[data-list-item-id*="nitro"] {
     display: none !important;
 }
 
-li.channel_c91bad.container_d91ad9 a[data-list-item-id*="shop"] {
+a[data-list-item-id*="shop"] {
     display: none !important;
 }
